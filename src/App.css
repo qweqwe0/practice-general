@@ -106,3 +106,43 @@ footer p{
   display: flex;
   justify-content: space-between;
 }
+
+/* HomePage */
+.head {
+  position: relative;
+  text-align: center;
+}
+.head-image {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+.head-content {
+  position: absolute;
+  top: 68px;
+  left: 40px; 
+  text-align: left;
+  
+  width: 1360px;
+  height: 310px;
+  color: white;
+}
+
+.head-content h1 {
+  font-size: 96px;
+  margin-bottom: 20px;
+}
+
+.head-button {
+  background-color: #339933;
+  width: 218px;
+  height: 58px;
+  color: white;
+  border: none;
+  padding: 16px 56px 16px 56px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  border-radius: 5px;
+  cursor: pointer;
+}
