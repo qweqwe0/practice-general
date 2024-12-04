@@ -4,6 +4,7 @@
   "homepage": "https://qweqwe0.github.io/practice-general",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.1",
     "@reduxjs/toolkit": "^2.4.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

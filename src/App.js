@@ -9,6 +9,8 @@ import DiscountProductsPage from './pages/DiscountProductsPage';
 import ProductPage from './pages/ProductPage';
 import CartPage from './pages/CartPage';
 import NotFoundPage from './pages/NotFoundPage';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
           <Route path='/cart' element={<CartPage/>}/>
           <Route path='*' element={<NotFoundPage/>}/>
         </Routes>
+        <Footer/>
       </Router>
     </div>
   );
