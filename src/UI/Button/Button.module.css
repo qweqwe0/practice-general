@@ -1,0 +1,16 @@
+css.formButton {
+    width: 516px;
+    height: 58px;
+    background-color: white;
+    color: #000000;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formButton:hover {
+    background-color: #282828;
+    color: white;
+}
+

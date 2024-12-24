@@ -9,7 +9,7 @@
   width: 1440px;
   margin: 0 auto;
 }
-/* header.jsx */
+/* -------------header.jsx */
 .nav-center a {
   text-decoration: none; 
 }
@@ -59,7 +59,7 @@ a{
   height: 48px;
 }
 
-/* Footer.jsx */
+/* -------------Footer.jsx */
 footer{
   height: 948px;
   padding: 0 40px;
@@ -107,7 +107,8 @@ footer p{
   justify-content: space-between;
 }
 
-/* HomePage */
+/* -------------HomePage */
+/* head */
 .head {
   position: relative;
   text-align: center;
@@ -122,12 +123,12 @@ footer p{
   top: 68px;
   left: 40px; 
   text-align: left;
-  
   width: 1360px;
   height: 310px;
+}
+.whiteText{
   color: white;
 }
-
 .head-content h1 {
   font-size: 96px;
   margin-bottom: 20px;
@@ -145,4 +146,155 @@ footer p{
   line-height: 26px;
   border-radius: 5px;
   cursor: pointer;
+}
+/* discount form */
+/* Общий стиль для заголовков, изображения и кнопки */
+/* .head {
+  position: relative;
+  text-align: center;
+}
+
+.head-image {
+  width: 100%;
+  height: 486px;
+  object-fit: cover;
+}
+
+.head-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.head-button {
+  background-color: #ffffff;
+  color: #28a745;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.promo-section {
+  background-color: #28a745;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 30px;
+}
+
+.promo-section h2 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Стиль формы */
+/* .form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-input {
+  width: 516px;
+  height: 58px;
+  margin-bottom: 16px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #c4c4c4;
+  border-radius: 4px;
+}
+
+.form-button {
+  width: 516px;
+  height: 58px;
+  background-color: white;
+  color: #28a745;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #f8f8f8;
+}  */
+.promo-section{
+  width: 100%;
+  background: rgb(51,153,51);
+  border-radius: 15px;
+  background: linear-gradient(90deg, rgba(51,153,51,1) 15%, rgba(11,113,11,1) 100%);
+  height: 486px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.promo-section h2{
+  padding-top: 20px;
+  font-size: 64px;
+}
+.promo-section-container{
+  width: 1296px;
+  height: 360px;
+  display: flex;
+}
+.promo-section-png{
+  background-image: url('./assets/promo-section.png');
+  height: 360px;
+  width: 748px;
+}
+.form-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width:516px ;
+  height: 296px;
+  margin-top: 32px;
+}
+.form-input-cont{
+  display: flex;
+  flex-direction: column;
+  height: 206px;
+  justify-content: space-between;
+}
+.form-input-cont input{
+  height: 58px;
+  border-radius: 10px;
+  border: none;
+  outline: white 1px solid;
+  background-color: rgba(255, 222, 173, 0);
+
+}
+.form-input{
+    color: white;
+    font-size: 20px; /* Размер шрифта соответствует изображению */
+    padding-left: 30px;
+}
+.form-input::placeholder {
+  color: #ffffff; /* Замените на желаемый цвет */
+}
+.form-container button{
+  height: 58px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: white;
+  border: none;
+}
+.form-container button:hover{
+  background-color: #282828;
+  color: white;
+}
+.active{
+  background-color: #F1F3F4;
+  color: #339933;
+}
+.error {
+  color: red;
+  font-size: 14px;
 }

@@ -13,8 +13,8 @@ function Header() {
             <ul className="nav-center">
                 <NavLink className={({isActive}) => isActive ? 'active' : '' } to={'/'}><li>Main Page</li></NavLink>
                 <NavLink className={({isActive}) => isActive ? 'active' : '' } to={'/categories'}><li>Categories</li></NavLink>
-                <NavLink className={({isActive}) => isActive ? 'active' : '' } to={'/products'}><li>All products</li></NavLink>
-                <NavLink className={({isActive}) => isActive ? 'active' : '' } to={'/sales'}><li>All sales</li></NavLink>
+                <NavLink className={({isActive}) => isActive ? 'active' : '' } to={'/products/all'}><li>All products</li></NavLink>
+                <NavLink className={({isActive}) => isActive ? 'active' : '' } to={'/products/sales'}><li>All sales</li></NavLink>
             </ul>
             <NavLink className={({isActive}) => isActive ? 'active' : '' } to={'/cart'}><div className="cart" ><img src={cart}/></div> </NavLink>
         </div>
